@@ -6,6 +6,12 @@ Play the game in your browser and compete against an algorithm that uses game-tr
 
 ---
 
+## How the player generates moves
+
+The player uses a game-tree search algorithm with many optimizations (Negamax with alpha-beta pruning, Transposition tables, Iterative deepening search, Null Window search, move ordering, Binary representation of board for efficient position calculations) to search for efficient moves within a search space of ~ 4 trillion possible moves
+
+---
+
 ## Features
 
 -  **Interactive Web UI** — Play Connect 4 in the browser.
@@ -21,9 +27,6 @@ Try the live version: [Play Online](https://connect4-app-768895558000.northameri
 
 ---
 
-## How the player generates moves
-
-The plsyer uses a game-tree search algorithm (Negamax with alpha-beta pruning) — a common approach in board games to explore possible future board states and pick the best move. This approach is depth-limited with pruning to reduce computation while still finding strong moves.
 
 
 
