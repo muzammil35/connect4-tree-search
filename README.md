@@ -21,16 +21,6 @@ Try the live version: [Play Online](https://connect4-app-768895558000.northameri
 
 ---
 
-##  Project Structure
-
-├── main.go # server entrypoint
-├── solver/ # game logic & tree search algorithm
-├── templates/ # HTML templates for UI
-├── static/ # bundled CSS/JS assets
-├── Dockerfile # container config
-├── go.mod # Go modules
-└── README.md # this file
-
 ## How the player generates moves
 
 The plsyer uses a game-tree search algorithm (Negamax with alpha-beta pruning) — a common approach in board games to explore possible future board states and pick the best move. This approach is depth-limited with pruning to reduce computation while still finding strong moves.
