@@ -11,7 +11,7 @@ Play the game in your browser and compete against an algorithm that uses game-tr
 -  **Interactive Web UI** — Play Connect 4 in the browser.
 -  **AI Opponent** — A game solver using **Negamax with alpha-beta pruning**.
 -  **REST API** — Server endpoints power the UI and allow external clients to integrate.
--  **Written in Go** — Clean, fast implementation with a small footprint.
+-  Supports **multiple concurrent players**, so many users can play at the same time without interfering with each     other.
 
 ---
 
